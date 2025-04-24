@@ -6,6 +6,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".WelcomeActivity">
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+
+        />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
@@ -14,6 +19,16 @@
         android:paddingTop="65dp"
         android:textSize="30sp"
 
+
+        />
+    <LinearLayout
+        android:layout_width=""
+        android:layout_height=""
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#154579"
         />
 
 
