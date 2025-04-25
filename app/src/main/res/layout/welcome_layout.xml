@@ -8,12 +8,12 @@
     tools:context=".WelcomeActivity">
 
     <LinearLayout
-        android:layout_width=""
-        android:layout_height="" />
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="380"
+        android:layout_height="380dp"
         android:background="#154579" />
 
     <TextView
@@ -24,12 +24,42 @@
         android:text="WELCOME!"
         android:textColor="@color/white"
         android:textSize="30sp" />
+    <EditText
+        android:id="@+id/edtLoginEmail"
+        android:paddingRight="10sp"
+        android:paddingTop="150dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:layout_gravity="center"
+
+        android:hint="Username or Email"
+        android:inputType="textEmailAddress"
+        android:maxLength="50"
+        android:paddingLeft="71sp"
+        android:textSize="20sp"/>
+    <EditText
+        android:id="@+id/edtLoginSenha"
+        android:paddingRight="10sp"
+        android:paddingTop="290dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:layout_gravity="center"
+
+        android:hint="Password"
+        android:inputType="textEmailAddress"
+        android:maxLength="50"
+        android:paddingLeft="105sp"
+        android:textSize="20sp"/>
+
 
     <ImageView
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:src="@drawable/childofbank"
         android:layout_gravity="center_horizontal"
+        android:layout_marginTop="130dp"
 
 
         />
